@@ -75,3 +75,13 @@ $ make
 * Acknowledgments:
 
   Thanks to Peter Jones for his help using CLO++.
+
+---
+
+© 2002–2025 Cristian S. Rocha. All rights reserved.
+
+This repository contains code and documentation originally developed as part of the 
+undergraduate thesis presented at the Department of Computer Science, Faculty of 
+Exact and Natural Sciences, University of Buenos Aires. The material is provided for 
+academic and historical preservation purposes. Commercial use or redistribution of 
+modified versions is not permitted without the author's consent.
