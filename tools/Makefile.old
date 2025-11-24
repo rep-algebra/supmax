@@ -1,0 +1,16 @@
+PROGS=generate_genome generate_fragments
+
+all: $(PROGS)
+
+generate_genome: generate_genome.cc
+
+generate_fragments: generate_fragments.cc
+
+clean:
+	rm -rf $(PROGS)
+
+test: all
+	./generate_genome 10000 > genome.raw
+	../main -c 10 -i genome.raw -S fragments.stat -M fragments.supmax
+	./generate_fragments 10 50 60 < genome.raw > fragments.raw
+	../main -c 10 -i fragments.raw -S fragments.stat -M fragments.supmax

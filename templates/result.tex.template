@@ -1,0 +1,34 @@
+\subsection{Muestra DATAFILE}
+
+\subsubsection{Secuencias de entrada.}
+include(DATAFILE_IN)
+
+\subsubsection{Secuencias supermaximales.}
+include(DATAFILE_SUPMAX)
+
+\subsubsection{Gráficos estadísticos.}
+
+\begin{figure}[ht]
+\vspace{0.3cm}
+include(DATAFILE_MSM)
+\vspace{0.3cm}
+\end{figure}
+\begin{figure}[ht]
+\vspace{0.3cm}
+include(DATAFILE_REL)
+\vspace{0.3cm}
+\end{figure}
+\begin{figure}[ht]
+\vspace{0.3cm}
+include(DATAFILE_NOD)
+\vspace{0.3cm}
+\end{figure}
+
+\subsubsection{Árbol de la estructura.}
+
+\begin{figure}[ht]
+\vspace{0.3cm}
+\epsfig{file=DATAFILE.tree.eps}
+\vspace{0.3cm}
+\end{figure}
+

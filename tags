@@ -1,0 +1,470 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	tools/generate_genome.cc	/^char A[] = "ACTG";$/;"	v
+Alpha	include/nodedata.h	/^	typedef alphabet<a,n>	Alpha;$/;"	t	struct:nodedata
+Alpha	include/supmax.h	/^	typedef alphabet<a, n>					Alpha;$/;"	t	class:Supmax
+Alpha	include/supmax_show.h	/^	typedef A			Alpha;$/;"	t	class:supmax_format
+Alphabet	src/main.cc	/^TAlphabet Alphabet;$/;"	v
+DEBUG	include/debug.h	8;"	d
+DIGRAPH	include/dotty2.h	7;"	d
+DNA	src/main.cc	/^symbol DNA[] = ".ACTGN";$/;"	v
+Dotty	include/dotty.h	/^	Dotty(ostream &os): _os(os) {$/;"	f	class:Dotty
+Dotty	include/dotty.h	/^class Dotty$/;"	c
+Dotty	include/dotty2.h	/^	Dotty(ostream &os, string name): _os(os) {$/;"	f	class:Dotty
+Dotty	include/dotty2.h	/^class Dotty {$/;"	c
+Dotty_Identity	include/dotty2.h	/^struct Dotty_Identity {$/;"	s
+Dotty_Node	include/dotty2.h	/^	Dotty_Node(const T &node) { };$/;"	f	class:Dotty_Node
+Dotty_Node	include/dotty2.h	/^class Dotty_Node {$/;"	c
+EATRIB	include/dotty2.h	11;"	d
+ENDL	include/dotty2.h	9;"	d
+FLG_FULLSTATICS	src/main.cc	28;"	d	file:
+Format	include/ntree_show.h	/^	typedef F			Format;$/;"	t	class:ntree_show
+Iterator	include/supmax.h	/^	typedef Tree::iterator					Iterator;$/;"	t	class:Supmax
+Latin	src/main.cc	/^symbol Latin[] = "*.+;:_?abcdefghijklmnñopqrstuvwxyzáéíóú";$/;"	v
+M	include/seq.h	/^	const seq_name_map	&M;$/;"	m	struct:subseq_format
+M	include/seq.h	/^	const seq_name_map	&M;$/;"	m	struct:subseq_set_format
+MAXMATCH	include/fasta.h	7;"	d
+MSG_SIZE	src/alphabet.cc	4;"	d	file:
+Map	include/supmax_show.h	/^	typedef M			Map;$/;"	t	class:supmax_format
+NSubTree_basic	include/ntree.h	/^	NSubTree_basic(Node_pointer _node): node(_node) {};$/;"	f	class:NSubTree_basic
+NSubTree_basic	include/ntree.h	/^class NSubTree_basic {$/;"	c
+NTree_basic	include/ntree.h	/^	NTree_basic(): NSubTree_basic< n, T, C, _cont >(new Node()) { };$/;"	f	class:NTree_basic
+NTree_basic	include/ntree.h	/^class NTree_basic: public NSubTree_basic< n, T, C, _cont > {$/;"	c
+Node	include/ntree.h	/^	typedef __NTree_node_basic< n, T >		Node;$/;"	t	class:NSubTree_basic
+Node	include/supmax.h	/^	typedef SubTree::Node					Node;$/;"	t	class:Supmax
+Node_data	include/supmax.h	/^	typedef	nodedata< a, n >				Node_data;$/;"	t	class:Supmax
+Node_pointer	include/ntree.h	/^	typedef Node*					Node_pointer;$/;"	t	class:NSubTree_basic
+Node_pointer	include/supmax.h	/^	typedef SubTree::Node_pointer				Node_pointer;$/;"	t	class:Supmax
+RE_NAME	include/fasta.h	8;"	d
+RE_SEQ	include/fasta.h	9;"	d
+S	include/supmax.h	/^	seq_set		S;$/;"	m	class:Supmax
+SATRIB	include/dotty2.h	10;"	d
+SM	src/main.cc	/^TSupmax SM;$/;"	v
+SMF_COUNT	include/supmax_show.h	8;"	d
+SMF_GROUP	include/supmax_show.h	9;"	d
+SMF_LEDGE	include/supmax_show.h	7;"	d
+SMF_LIST	include/supmax_show.h	11;"	d
+SMF_SYMBOL	include/supmax_show.h	10;"	d
+S_name	include/supmax.h	/^	seq_name_map	S_name;$/;"	m	class:Supmax
+Show	include/supmax_show.h	/^	typedef subseq_set_show<Map>	Show;$/;"	t	class:supmax_format
+SubTree	include/supmax.h	/^	typedef NSubTree_basic< n, Node_data, statics, _stat >	SubTree;$/;"	t	class:Supmax
+Supmax	include/supmax.h	/^	Supmax(size_t _coverage = 1)$/;"	f	class:Supmax
+Supmax	include/supmax.h	/^class Supmax {$/;"	c
+SupmaxSet	include/supmax.h	/^	typedef set<Node_pointer>				SupmaxSet;$/;"	t	class:Supmax
+Supmaxstat	src/main.cc	/^statics Supmaxstat;$/;"	v
+TAlphabet	src/main.cc	/^typedef alphabet<DNA, sizeof(DNA)>		TAlphabet;$/;"	t	file:
+TAlphabet	src/main.cc	/^typedef alphabet<Latin, sizeof(Latin)>		TAlphabet;$/;"	t	file:
+TO	include/dotty2.h	8;"	d
+TSupmax	src/main.cc	/^typedef Supmax<DNA,6,Supmaxstat>		TSupmax;$/;"	t	file:
+TSupmax	src/main.cc	/^typedef Supmax<Latin,sizeof(Latin),Supmaxstat>	TSupmax;$/;"	t	file:
+Tree	include/ntree_show.h	/^	typedef NSubTree_basic<n, T, C, _cont>	Tree;$/;"	t	class:ntree_show
+Tree	include/supmax.h	/^	typedef NTree_basic< n, Node_data, statics, _stat >	Tree;$/;"	t	class:Supmax
+Type	include/ntree_show.h	/^	typedef T	Type;$/;"	t	class:basic_format
+Type	include/supmax_show.h	/^	typedef T			Type;$/;"	t	class:supmax_format
+_DOTTY_2_H_	include/dotty2.h	2;"	d
+_DOTTY_H_	include/dotty.h	2;"	d
+_FASTA_H_	include/fasta.h	2;"	d
+_M_next	include/ntree.h	/^	void _M_next() {$/;"	f	struct:__NTree_iterator_basic
+_NODEDATA_DOTTY_H_	include/nodedata_dotty.h	2;"	d
+_NTREE_SHOW_H_	include/ntree_show.h	2;"	d
+_RAW_H_	include/raw.h	2;"	d
+_SEQFORMAT_H_	include/seqformat.h	2;"	d
+_SEQ_SHOW_H_	include/seq_show.h	2;"	d
+_SUPMAX_SHOW_CC_	include/supmax_show.cc	2;"	d	file:
+_SUPMAX_SHOW_H_	include/supmax_show.h	2;"	d
+_TREE_MODE_COMPLETE_	src/main.cc	3;"	d	file:
+__ALPHABET_H	include/alphabet.h	2;"	d
+__DEBUG_H	include/debug.h	2;"	d
+__NODEDATA_H	include/nodedata.h	2;"	d
+__NTREE_H	include/ntree.h	2;"	d
+__NTree_iterator_basic	include/ntree.h	/^	__NTree_iterator_basic() {$/;"	f	struct:__NTree_iterator_basic
+__NTree_iterator_basic	include/ntree.h	/^	__NTree_iterator_basic(__NTree_node_basic< n, T > *node ) {$/;"	f	struct:__NTree_iterator_basic
+__NTree_iterator_basic	include/ntree.h	/^struct __NTree_iterator_basic {$/;"	s
+__NTree_node_basic	include/ntree.h	/^	__NTree_node_basic()$/;"	f	struct:__NTree_node_basic
+__NTree_node_basic	include/ntree.h	/^	__NTree_node_basic(const T& _data)$/;"	f	struct:__NTree_node_basic
+__NTree_node_basic	include/ntree.h	/^	__NTree_node_basic(const __NTree_node_basic& _x)$/;"	f	struct:__NTree_node_basic
+__NTree_node_basic	include/ntree.h	/^struct __NTree_node_basic {$/;"	s
+__NTree_status	include/ntree.h	/^	__NTree_status(__NTree_node_basic< n, T > *_node, size_t _i):$/;"	f	struct:__NTree_status
+__NTree_status	include/ntree.h	/^struct __NTree_status {$/;"	s
+__SEQ_H	include/seq.h	2;"	d
+__STATICS_H	include/statics.h	2;"	d
+__SUBMAX_H	include/supmax.h	2;"	d
+__TYPES_H	include/types.h	2;"	d
+__clo_h__	include/clo.h	15;"	d
+__debug	src/debug.cc	/^int __debug = 0;$/;"	v
+_alpha	include/supmax_show.h	/^	const Alpha	&_alpha;$/;"	m	class:supmax_format
+_alpha_message_	src/alphabet.cc	/^char _alpha_message_[MSG_SIZE];$/;"	v
+_begin	include/seq.h	/^	seq_c_iterator		_begin;$/;"	m	struct:subseq_l
+_begin	include/seq.h	/^	unsigned short int	_begin;$/;"	m	struct:subseq_s
+_c	include/seq_show.h	/^	const C &_c;$/;"	m	class:subseq_set_show
+_c	include/seq_show.h	/^	const C &_c;$/;"	m	class:subseq_show
+_delete_chain_soon	include/ntree.h	/^	void _delete_chain_soon() {$/;"	f	struct:__NTree_node_basic
+_duplicate_chain_soon	include/ntree.h	/^	void _duplicate_chain_soon(const __NTree_node_basic &_x) {$/;"	f	struct:__NTree_node_basic
+_end	include/seq.h	/^	seq_c_iterator		_end;$/;"	m	struct:subseq_l
+_end	include/seq.h	/^	unsigned short int	_end;$/;"	m	struct:subseq_s
+_flag	include/supmax_show.h	/^	const int	_flag;$/;"	m	class:supmax_format
+_format	include/ntree_show.h	/^	const Format	_format;$/;"	m	class:ntree_show
+_map	include/supmax_show.h	/^	const Map	&_map;$/;"	m	class:supmax_format
+_min	src/main.cc	/^	double _min;$/;"	m	struct:aceptable	file:
+_n	include/fasta.h	/^	string _n;$/;"	m	class:fasta
+_n	include/nodedata_dotty.h	/^	const nodedata<a,n> &_n;$/;"	m	class:nodedata_dotty
+_n	include/nodedata_dotty.h	/^	const nodedata<a,n> &_n;$/;"	m	class:nodedata_dotty_complex
+_name	include/seqformat.h	/^	string _name;$/;"	m	class:seqformat
+_os	include/dotty.h	/^	ostream &_os;$/;"	m	class:Dotty
+_os	include/dotty2.h	/^	ostream &_os;$/;"	m	class:Dotty
+_prev	include/seq.h	/^	symbol			_prev;$/;"	m	struct:subseq_s
+_properties	include/seqformat.h	/^	map<string,string> _properties;$/;"	m	class:seqformat
+_sep	include/seq_show.h	/^	const char *_sep;$/;"	m	class:subseq_set_show
+_sep	include/seq_show.h	/^	const char *_sep;$/;"	m	class:subseq_show
+_sep_i	include/seq_show.h	/^	const char *_sep_i;$/;"	m	class:subseq_set_show
+_sequence	include/seqformat.h	/^	string _sequence;$/;"	m	class:seqformat
+_ss	include/seq_show.h	/^	const subseq &_ss;$/;"	m	class:subseq_show
+_ss	include/seq_show.h	/^	const subseq_set &_ss;$/;"	m	class:subseq_set_show
+_tree	include/ntree_show.h	/^	const Tree	_tree;$/;"	m	class:ntree_show
+aceptable	src/main.cc	/^	aceptable(double min): _min(min) {}$/;"	f	struct:aceptable
+aceptable	src/main.cc	/^struct aceptable {$/;"	s	file:
+ale	tools/randomread.pl	/^sub ale {$/;"	s
+alpha_size	include/nodedata.h	/^	size_t alpha_size() const {$/;"	f	struct:nodedata
+alphabet	include/alphabet.h	/^	alphabet() {};$/;"	f	class:alphabet
+alphabet	include/alphabet.h	/^class alphabet {$/;"	c
+are_path	src/seq.cc	/^bool are_path(relation &r, subseq_set_c_iterator &a, subseq_set_c_iterator &b) {$/;"	f
+attribs	include/dotty2.h	/^	map < string, string > &attribs;$/;"	m	class:Dotty
+autoexcept	include/clo.h	/^	autoexcept (autothrow id, const std::string &message)$/;"	f	class:clo::autoexcept
+autoexcept	include/clo.h	/^    class autoexcept : public option_error {$/;"	c	namespace:clo
+autothrow	include/clo.h	/^    enum autothrow { $/;"	g	namespace:clo
+autothrow_	include/clo.h	/^	autothrow autothrow_;$/;"	m	class:clo::autoexcept
+autothrow_help	include/clo.h	/^	autothrow_help$/;"	e	enum:clo::autothrow
+basic_format	include/ntree_show.h	/^	basic_format() { };$/;"	f	class:basic_format
+basic_format	include/ntree_show.h	/^class basic_format {$/;"	c
+begin	include/ntree.h	/^	iterator begin() { return iterator(node); }$/;"	f	class:NSubTree_basic
+begin	include/seq.h	/^	seq_c_iterator	begin() const { return _begin; }$/;"	f	struct:subseq_l
+begin	include/seq.h	/^	seq_c_iterator	begin() const { return sequence->begin() + _begin; }$/;"	f	struct:subseq_s
+begin	include/seq.h	/^	seq_c_iterator	begin(int i) { _begin += i; return _begin; }$/;"	f	struct:subseq_l
+begin	include/seq.h	/^	seq_c_iterator	begin(int i) { _begin += i; return begin(); }$/;"	f	struct:subseq_s
+begin	include/seq.h	/^	void begin(int i) { _begin += i; }$/;"	f	struct:subseq_s
+begin_attrib	include/dotty.h	/^	void begin_attrib() { _os << " [ "; } $/;"	f	class:Dotty
+brand	include/ntree.h	/^	NSubTree_basic brand(const I &begin, const I &end, const F &f = id) {$/;"	f	class:NSubTree_basic
+brand	include/ntree.h	/^	const NSubTree_basic &brand(const I &begin, const I &end, const F &f = id) const {$/;"	f	class:NSubTree_basic
+brand_break	include/ntree.h	/^	brand_break(I i, const I &end, const F &f = id) const {$/;"	f	class:NSubTree_basic
+brand_break	include/ntree.h	/^	brand_break(I i, const I &end, const F &f = id) {$/;"	f	class:NSubTree_basic
+clo	include/clo.h	/^namespace clo {$/;"	n
+complete	include/nodedata.h	/^	void complete() {$/;"	f	struct:nodedata
+complexZIP	tools/supmax2fasta.pl	/^sub complexZIP {$/;"	s
+const_help_comment	src/clo.cc	/^    const char const_help_comment[] =$/;"	m	namespace:__anon1	file:
+const_usage	src/clo.cc	/^    const char const_usage[] =$/;"	m	namespace:__anon1	file:
+coverage	include/clo.h	/^int coverage;$/;"	m	struct:clo::options
+coverage	include/clo.h	/^size_type coverage;$/;"	m	struct:clo::option_locations
+coverage	include/supmax.h	/^	size_t		coverage;$/;"	m	class:Supmax
+create_relation	src/seq.cc	/^void create_relation(relation &r, const subseq_set &_m) {$/;"	f
+data	include/ntree.h	/^	T data;$/;"	m	struct:__NTree_node_basic
+debug	include/clo.h	/^int debug;$/;"	m	struct:clo::options
+debug	include/clo.h	/^size_type debug;$/;"	m	struct:clo::option_locations
+draw	include/ntree.h	/^	Dotty &draw(Dotty &_dot,$/;"	f	class:NSubTree_basic
+draw	include/supmax.h	/^	Dotty &draw(Dotty &_dot, const Supmax<a,n> &_sm) {$/;"	f	class:Supmax
+draw	src/seq.cc	/^Dotty &draw(Dotty &_dot, const relation &r) {$/;"	f
+draw	src/seq.cc	/^Dotty &draw(Dotty &_dot, const string &_ns, const subseq_set &_n, const string &_ms, const subseq_set &_m) {$/;"	f
+draw	src/seq.cc	/^Dotty &draw(Dotty &_dot, const subseq_map &_m) {$/;"	f
+edge	include/dotty.h	/^	void edge(K o, K d, E name = E()) {$/;"	f	class:Dotty
+edge	include/dotty2.h	/^	edge(const Tnode &a, const Tnode &b, const Tedge &e) {$/;"	f	class:Dotty
+edge	include/ntree_show.h	/^	void edge(ostream &os, const Type a,$/;"	f	class:basic_format
+edge	include/supmax_show.cc	/^supmax_format<T,M,A>::edge(ostream &os, const Type a,$/;"	f	class:supmax_format
+end	include/ntree.h	/^	iterator end() { return iterator(); }$/;"	f	class:NSubTree_basic
+end	include/seq.h	/^	seq_c_iterator	end() const { return _end; }$/;"	f	struct:subseq_l
+end	include/seq.h	/^	seq_c_iterator	end() const { return sequence->begin() + _end; }$/;"	f	struct:subseq_s
+end	include/seq.h	/^	seq_c_iterator	end(int i) { _end += i; return _end; }$/;"	f	struct:subseq_l
+end	include/seq.h	/^	seq_c_iterator	end(int i) { _end += i; return end(); }$/;"	f	struct:subseq_s
+end	include/seq.h	/^	void end(int i) { _end += i; }$/;"	f	struct:subseq_s
+end	src/main.cc	/^struct timeval start, end;$/;"	v	typeref:struct:
+end_attrib	include/dotty.h	/^	void end_attrib() { _os << " ] " << endl; } $/;"	f	class:Dotty
+exist	include/ntree.h	/^	bool exist(size_t i) const {$/;"	f	class:NSubTree_basic
+expand	include/supmax.h	/^	void expand(symbol_id s, SubTree src) throw (std::exception) {$/;"	f	class:Supmax
+expand_long_name	src/clo.cc	/^    const char* expand_long_name (const std::string &name) {$/;"	f	namespace:__anon2
+expandible	include/nodedata.h	/^	bool expandible(symbol_id s, size_t coverage) const {$/;"	f	struct:nodedata
+expandtome	include/nodedata.h	/^	void expandtome(subseq_set &src) {$/;"	f	struct:nodedata
+expandtome	include/nodedata.h	/^	void expandtome(subseq_set &src, const seq &_seq) {$/;"	f	struct:nodedata
+expandtome	include/nodedata.h	/^	void expandtome(symbol_id sym, nodedata &src) {$/;"	f	struct:nodedata
+fasta	include/fasta.h	/^	fasta(istream &is): seqformat_inputiterator(is)$/;"	f	class:fasta
+fasta	include/fasta.h	/^class fasta: public seqformat_inputiterator {$/;"	c
+finalize	src/clo.cc	/^void clo::parser::finalize (void) {$/;"	f	class:clo::parser
+format	include/clo.h	/^size_type format;$/;"	m	struct:clo::option_locations
+format	include/clo.h	/^std::string format;$/;"	m	struct:clo::options
+format_t	include/supmax.h	/^	typedef supmax_format< node_t, seq_name_map, Alpha >	format_t;$/;"	t	class:Supmax
+fullstat	include/clo.h	/^bool fullstat;$/;"	m	struct:clo::options
+fullstat	include/clo.h	/^size_type fullstat;$/;"	m	struct:clo::option_locations
+get_autothrow_id	include/clo.h	/^	autothrow get_autothrow_id (void) const$/;"	f	class:clo::autoexcept
+get_help_comment	src/clo.cc	/^const char* clo::option_error::get_help_comment (void) const {$/;"	f	class:clo::option_error
+get_locations	include/clo.h	/^	const option_locations& get_locations (void) const$/;"	f	class:clo::parser
+get_non_options	include/clo.h	/^	const std::vector<std::string>& get_non_options (void) const$/;"	f	class:clo::parser
+get_options	include/clo.h	/^	const options& get_options (void) const$/;"	f	class:clo::parser
+getstatics	include/supmax.h	/^	const statics &getstatics() const {$/;"	f	class:Supmax
+graph	include/clo.h	/^size_type graph;$/;"	m	struct:clo::option_locations
+graph	include/clo.h	/^std::string graph;$/;"	m	struct:clo::options
+haveprev	include/seq.h	/^	bool haveprev() const { return _begin != sequence->begin(); }$/;"	f	struct:subseq_l
+haveprev	include/seq.h	/^	bool haveprev() const { return _begin > 0; }$/;"	f	struct:subseq_s
+i	include/ntree.h	/^	size_t i;$/;"	m	struct:__NTree_status
+i_count	src/main.cc	/^size_t i_count;$/;"	v
+id	include/raw.h	/^	static int id;$/;"	m	class:raw
+id	src/main.cc	/^int raw::id = 0;$/;"	m	class:raw	file:
+idx	include/supmax.h	/^	Tree		idx;$/;"	m	class:Supmax
+input	include/clo.h	/^size_type input;$/;"	m	struct:clo::option_locations
+input	include/clo.h	/^std::string input;$/;"	m	struct:clo::options
+input	src/main.cc	/^istream *input = &cin;$/;"	v
+insert	include/supmax.h	/^	void insert(const seq &_s, const string &name = string()) {$/;"	f	class:Supmax
+insert	include/supmax.h	/^	void insert(const seq_set_c_iterator id,$/;"	f	class:Supmax
+insert	src/main.cc	/^void insert(seqformat_inputiterator &f, Container &SM, statics &st, int flags = 0) {$/;"	f
+invalid_symbol	include/alphabet.h	/^class invalid_symbol: public std::range_error {$/;"	c
+invalid_symbol	src/alphabet.cc	/^invalid_symbol::invalid_symbol(symbol _s): range_error("Invalid symbol"), s(_s) { };$/;"	f	class:invalid_symbol
+invalid_symbol_id	include/alphabet.h	/^class invalid_symbol_id: public std::range_error {$/;"	c
+invalid_symbol_id	src/alphabet.cc	/^invalid_symbol_id::invalid_symbol_id(symbol_id _s): range_error("Invalid symbol id"), s(_s) { };$/;"	f	class:invalid_symbol_id
+is	include/seqformat.h	/^	istream &is;$/;"	m	class:seqformat_inputiterator
+is_header	include/fasta.h	/^	bool is_header(const char *str) {$/;"	f	class:fasta
+isleaf	include/ntree.h	/^	bool isleaf() const {$/;"	f	class:NSubTree_basic
+isleaf	include/ntree.h	/^	bool isleaf() const {$/;"	f	struct:__NTree_iterator_basic
+issupermaximal	include/nodedata.h	/^	bool issupermaximal(size_t coverage) const {$/;"	f	struct:nodedata
+iterator	include/ntree.h	/^	typedef __NTree_iterator_basic< n, T >	iterator;$/;"	t	class:NSubTree_basic
+label	include/dotty.h	/^	void label(const L &l) { _os << " label = \\"" << l << "\\" "; }$/;"	f	class:Dotty
+label	include/dotty.h	/^	void label(const L &l, const LF &lf)$/;"	f	class:Dotty
+locations_	include/clo.h	/^	option_locations locations_;$/;"	m	class:clo::parser
+main	src/main.cc	/^int main(int argc, char *argv[]) {$/;"	f
+main	tools/generate_fragments.cc	/^int main(int argc, char *argv[]) {$/;"	f
+main	tools/generate_genome.cc	/^int main(int argc, char *argv[]) {$/;"	f
+match	include/fasta.h	/^	regmatch_t match[MAXMATCH];$/;"	m	class:fasta
+maximal	include/statics.h	/^	size_t maximal;$/;"	m	class:statics
+name	include/seqformat.h	/^	const string &name() const$/;"	f	class:seqformat
+name	include/seqformat.h	/^	string &name()$/;"	f	class:seqformat
+name_of	include/supmax.h	/^	string name_of(const seq_set_c_iterator &id) {$/;"	f	class:Supmax
+newmaximal	include/statics.h	/^	void newmaximal() { maximal++; }$/;"	f	class:statics
+newnode	include/statics.h	/^	void newnode() { nodes++; }$/;"	f	class:statics
+newsupermaximal	include/statics.h	/^	void newsupermaximal() { supermaximal++; }$/;"	f	class:statics
+next	include/fasta.h	/^	bool next() {$/;"	f	class:fasta
+next	include/raw.h	/^	bool next() {$/;"	f	class:raw
+node	include/dotty.h	/^	void node(Itr begin, Itr end) {$/;"	f	class:Dotty
+node	include/dotty.h	/^	void node(K n, L l, const string &_shape) {$/;"	f	class:Dotty
+node	include/dotty2.h	/^	node(const Tnode &n) {$/;"	f	class:Dotty
+node	include/ntree.h	/^	Node_pointer	node;$/;"	m	class:NSubTree_basic
+node	include/ntree.h	/^	__NTree_node_basic< n, T > *node;$/;"	m	struct:__NTree_status
+node	include/ntree_show.h	/^	void node(ostream &os, const Type a) const {$/;"	f	class:basic_format
+node	include/supmax_show.cc	/^supmax_format<T,M,A>::node(ostream &os, const Type a) const {$/;"	f	class:supmax_format
+node_t	include/supmax.h	/^	typedef Tree::Node_pointer				node_t;$/;"	t	class:Supmax
+nodedata	include/nodedata.h	/^	nodedata() {$/;"	f	struct:nodedata
+nodedata	include/nodedata.h	/^struct nodedata {$/;"	s
+nodedata_dotty	include/nodedata_dotty.h	/^	nodedata_dotty(const nodedata<a,n> &nd): _n(nd) {};$/;"	f	class:nodedata_dotty
+nodedata_dotty	include/nodedata_dotty.h	/^class nodedata_dotty {$/;"	c
+nodedata_dotty_complete	include/nodedata_dotty.h	/^	nodedata_dotty_complete(const nodedata<a,n> &n): nodedata(n) {};$/;"	f	class:nodedata_dotty_complete
+nodedata_dotty_complete	include/nodedata_dotty.h	/^class nodedata_dotty_complete: public nodedata_dotty<a,n> {$/;"	c
+nodedata_dotty_complex	include/nodedata_dotty.h	/^	nodedata_dotty_complex(const nodedata<a,n> &nd): nodedata_dotty(n) {};$/;"	f	class:nodedata_dotty_complex
+nodedata_dotty_complex	include/nodedata_dotty.h	/^class nodedata_dotty_complex: public nodedata_dotty<a,n> {$/;"	c
+nodedata_dotty_simple	include/nodedata_dotty.h	/^	nodedata_dotty_simple(const nodedata<a,n> &nd): nodedata_dotty(nd) {};$/;"	f	class:nodedata_dotty_simple
+nodedata_dotty_simple	include/nodedata_dotty.h	/^class nodedata_dotty_simple: public nodedata_dotty<a,n> {$/;"	c
+nodes	include/statics.h	/^	size_t nodes;$/;"	m	class:statics
+noexist	include/ntree.h	/^	bool noexist(size_t i) const {$/;"	f	class:NSubTree_basic
+non_options_	include/clo.h	/^	std::vector<std::string> non_options_;$/;"	m	class:clo::parser
+ntree_show	include/ntree_show.h	/^	ntree_show(const Tree &tree, const Format &format = Format() ) $/;"	f	class:ntree_show
+ntree_show	include/ntree_show.h	/^	ntree_show(const ntree_show &t ) $/;"	f	class:ntree_show
+ntree_show	include/ntree_show.h	/^class ntree_show {$/;"	c
+openum_	include/clo.h	/^	} openum_;$/;"	m	class:clo::parser	typeref:enum:clo::parser::options_enum
+operator !=	include/ntree.h	/^	bool operator!=(const struct __NTree_iterator_basic &_x) const {$/;"	f	struct:__NTree_iterator_basic
+operator !=	include/ntree.h	/^	bool operator!=(const struct __NTree_status &_x) const {$/;"	f	struct:__NTree_status
+operator ()	include/alphabet.h	/^	symbol    operator()(symbol_id s) const$/;"	f	class:alphabet
+operator ()	include/alphabet.h	/^	symbol_id operator()(symbol s) const$/;"	f	class:alphabet
+operator ()	include/ntree.h	/^	Node_pointer operator()() { return node; }$/;"	f	class:NSubTree_basic
+operator ()	include/seq.h	/^	bool operator() (const seq_set_c_iterator &a, $/;"	f	struct:seq_set_c_iterator_compare
+operator ()	src/main.cc	/^	bool operator()(const T &t) const {$/;"	f	struct:aceptable
+operator *	include/ntree.h	/^	T &operator* () {$/;"	f	class:NSubTree_basic
+operator *	include/ntree.h	/^	T &operator*() { return status.top().node->data; }$/;"	f	struct:__NTree_iterator_basic
+operator *	include/ntree.h	/^	const T &operator* () const {$/;"	f	class:NSubTree_basic
+operator *	include/ntree.h	/^	const T &operator*() const { return status.top().data; }$/;"	f	struct:__NTree_iterator_basic
+operator ++	include/ntree.h	/^	__NTree_iterator_basic &operator++() { _M_next(); return *this; };$/;"	f	struct:__NTree_iterator_basic
+operator ++	include/ntree.h	/^	__NTree_iterator_basic &operator++(int) { _M_next(); return *this; };$/;"	f	struct:__NTree_iterator_basic
+operator ++	include/seqformat.h	/^	bool operator++() { return next(); }$/;"	f	class:seqformat_inputiterator
+operator -	src/main.cc	/^double operator-(const struct timeval &a, const struct timeval &b) {$/;"	f
+operator <	src/seq.cc	/^bool operator<(const subseq_set_c_iterator &a, const subseq_set_c_iterator &b) {$/;"	f
+operator <<	include/nodedata.h	/^	ostream &operator<<(ostream &os, const nodedata &_b) {$/;"	f	struct:nodedata
+operator <<	include/nodedata.h	/^	ostream &operator<<(ostream &os, const std::slist<nodedata> &_b) {$/;"	f	struct:nodedata
+operator <<	include/nodedata_dotty.h	/^	friend ostream &operator<<(ostream &os, const nodedata_dotty_complete &nd) {$/;"	f	class:nodedata_dotty_complete
+operator <<	include/nodedata_dotty.h	/^	friend ostream &operator<<(ostream &os, const nodedata_dotty_complex &nd) {$/;"	f	class:nodedata_dotty_complex
+operator <<	include/nodedata_dotty.h	/^	friend ostream &operator<<(ostream &os, const nodedata_dotty_simple &nd) {$/;"	f	class:nodedata_dotty_simple
+operator <<	include/ntree_show.h	/^	friend ostream &operator<<(ostream &os, const ntree_show &o) {$/;"	f	class:ntree_show
+operator <<	include/seq_show.h	/^	friend ostream &operator<<(ostream &os, const subseq_set_show &sd) {$/;"	f	class:subseq_set_show
+operator <<	include/seq_show.h	/^	friend ostream &operator<<(ostream &os, const subseq_show &sd) {$/;"	f	class:subseq_show
+operator <<	src/main.cc	/^ostream &operator<<(ostream &os, const struct timeval &tm) {$/;"	f
+operator <<	src/seq.cc	/^std::ostream &operator<<(std::ostream &os, const subseq &_ss) {$/;"	f
+operator <<	src/seq.cc	/^std::ostream &operator<<(std::ostream &os, const subseq_format &_f) {$/;"	f
+operator <<	src/seq.cc	/^std::ostream &operator<<(std::ostream &os, const subseq_set &_b) {$/;"	f
+operator <<	src/seq.cc	/^std::ostream &operator<<(std::ostream &os, const subseq_set_format &_f) {$/;"	f
+operator =	include/ntree.h	/^	__NTree_node_basic &operator=(const __NTree_node_basic& _x) { $/;"	f	struct:__NTree_node_basic
+operator ==	include/ntree.h	/^	bool operator==(const struct __NTree_iterator_basic &_x) const {$/;"	f	struct:__NTree_iterator_basic
+operator ==	include/ntree.h	/^	bool operator==(const struct __NTree_status &_x) const {$/;"	f	struct:__NTree_status
+operator []	include/dotty2.h	/^	const T &operator[](const T &a) const { return a; }$/;"	f	struct:Dotty_Identity
+operator []	include/ntree.h	/^	NSubTree_basic operator[] (size_t i) {$/;"	f	class:NSubTree_basic
+operator []	include/ntree.h	/^	const NSubTree_basic operator[] (size_t i) const {$/;"	f	class:NSubTree_basic
+opsource	include/clo.h	/^	enum opsource { source_cl, source_cf };$/;"	g	class:clo::parser
+option_coverage	include/clo.h	/^		option_coverage,$/;"	e	enum:clo::parser::options_enum
+option_debug	include/clo.h	/^		option_debug,$/;"	e	enum:clo::parser::options_enum
+option_error	include/clo.h	/^	option_error (const std::string &what_arg)$/;"	f	class:clo::option_error
+option_error	include/clo.h	/^    class option_error : public std::runtime_error {$/;"	c	namespace:clo
+option_format	include/clo.h	/^		option_format,$/;"	e	enum:clo::parser::options_enum
+option_fullstat	include/clo.h	/^		option_fullstat$/;"	e	enum:clo::parser::options_enum
+option_graph	include/clo.h	/^		option_graph,$/;"	e	enum:clo::parser::options_enum
+option_input	include/clo.h	/^	    option_input,$/;"	e	enum:clo::parser::options_enum
+option_locations	include/clo.h	/^    struct option_locations {$/;"	s	namespace:clo
+option_statics	include/clo.h	/^		option_statics,$/;"	e	enum:clo::parser::options_enum
+option_supermaximals	include/clo.h	/^		option_supermaximals,$/;"	e	enum:clo::parser::options_enum
+option_tree	include/clo.h	/^		option_tree,$/;"	e	enum:clo::parser::options_enum
+option_treeflag	include/clo.h	/^		option_treeflag,$/;"	e	enum:clo::parser::options_enum
+option_treeprofile	include/clo.h	/^		option_treeprofile,$/;"	e	enum:clo::parser::options_enum
+option_treeprofileflag	include/clo.h	/^		option_treeprofileflag,$/;"	e	enum:clo::parser::options_enum
+options	include/clo.h	/^	options (void) :$/;"	f	struct:clo::options
+options	include/clo.h	/^    struct options {$/;"	s	namespace:clo
+options_	include/clo.h	/^	options options_;$/;"	m	class:clo::parser
+options_enum	include/clo.h	/^	enum options_enum {$/;"	g	class:clo::parser
+org	include/nodedata.h	/^	subseq_set	*org;$/;"	m	struct:nodedata
+org	include/nodedata.h	/^	subseq_set	org[n];$/;"	m	struct:nodedata
+parse	src/clo.cc	/^void clo::parser::parse (int argc, char *argv[], bool call_finalize) {$/;"	f	class:clo::parser
+parse_element	src/clo.cc	/^void clo::parser::parse_element (const char *element, int position, opsource source) {$/;"	f	class:clo::parser
+parse_long_option	src/clo.cc	/^void clo::parser::parse_long_option (const char *option, int position, opsource source) {$/;"	f	class:clo::parser
+parse_short_option	src/clo.cc	/^void clo::parser::parse_short_option (char option, int position, opsource source) {$/;"	f	class:clo::parser
+parse_value	src/clo.cc	/^void clo::parser::parse_value (const char *value) {$/;"	f	class:clo::parser
+parser	include/clo.h	/^    class parser {$/;"	c	namespace:clo
+parser	src/clo.cc	/^clo::parser::parser (void)$/;"	f	class:clo::parser
+parser	src/main.cc	/^clo::parser parser;$/;"	v
+parser_state	include/clo.h	/^	enum parser_state { state_option, state_value, state_consume } state_;$/;"	g	class:clo::parser
+pbegin	include/seq.h	/^	size_t pbegin() const { return _begin - sequence->begin(); }$/;"	f	struct:subseq_l
+pbegin	include/seq.h	/^	size_t pbegin() const { return _begin; }$/;"	f	struct:subseq_s
+pend	include/seq.h	/^	size_t pend() const { return _end - sequence->end(); }$/;"	f	struct:subseq_l
+pend	include/seq.h	/^	size_t pend() const { return _end; }$/;"	f	struct:subseq_s
+prev	include/seq.h	/^	symbol prev() const { return *(_begin - 1); }$/;"	f	struct:subseq_l
+prev	include/seq.h	/^	symbol prev() const { return *(begin() - 1); }$/;"	f	struct:subseq_s
+prev	include/seq.h	/^	symbol prev() const { return _prev; }$/;"	f	struct:subseq_s
+property	include/seqformat.h	/^	const string &property(const string &p) const$/;"	f	class:seqformat
+property	include/seqformat.h	/^	string &property(const string &p)$/;"	f	class:seqformat
+purify	include/nodedata.h	/^	void purify() {$/;"	f	struct:nodedata
+rand_nucleotid	tools/generate_genome.cc	/^ostream &rand_nucleotid(ostream &os) {$/;"	f
+rand_sequence	tools/generate_genome.cc	/^int rand_sequence(ostream &os, int size) {$/;"	f
+raw	include/raw.h	/^	raw(istream &is): seqformat_inputiterator(is)$/;"	f	class:raw
+raw	include/raw.h	/^class raw: public seqformat_inputiterator {$/;"	c
+re_name	include/fasta.h	/^	regex_t re_name;$/;"	m	class:fasta
+re_seq	include/fasta.h	/^	regex_t re_seq;$/;"	m	class:fasta
+read	tools/generate_fragments.cc	/^int read(ostream &os, const string &str, int fragmin, int fragmax) {$/;"	f
+record_begin	include/dotty.h	/^	void record_begin(int n) {$/;"	f	class:Dotty
+record_beginrow	include/dotty.h	/^	void record_beginrow() { _os << '{'; }$/;"	f	class:Dotty
+record_end	include/dotty.h	/^	void record_end() {$/;"	f	class:Dotty
+record_endrow	include/dotty.h	/^	void record_endrow() { _os << '}'; }$/;"	f	class:Dotty
+record_item	include/dotty.h	/^	void record_item(int id, string l) {$/;"	f	class:Dotty
+record_spc	include/dotty.h	/^	void record_spc() { _os << '|'; }$/;"	f	class:Dotty
+relation	include/seq.h	/^typedef multimap<subseq_set_c_iterator, subseq_set_c_iterator> relation;$/;"	t
+result	src/main.cc	/^void result(int i = 0) {$/;"	f
+s	include/alphabet.h	/^	symbol s;$/;"	m	class:invalid_symbol
+s	include/alphabet.h	/^	symbol_id s;$/;"	m	class:invalid_symbol_id
+seq	include/seq.h	/^typedef std::string			seq;$/;"	t
+seq	include/seqformat.h	/^	const string &seq() const$/;"	f	class:seqformat
+seq	include/seqformat.h	/^	string &seq()$/;"	f	class:seqformat
+seq_c_iterator	include/seq.h	/^typedef seq::const_iterator		seq_c_iterator;$/;"	t
+seq_iterator	include/seq.h	/^typedef seq::iterator			seq_iterator;$/;"	t
+seq_name_map	include/seq.h	/^	seq_name_map;$/;"	t
+seq_set	include/seq.h	/^typedef	std::slist<seq, malloc_alloc>			seq_set;$/;"	t
+seq_set_c_iterator	include/seq.h	/^typedef	seq_set::const_iterator		seq_set_c_iterator;$/;"	t
+seq_set_c_iterator_compare	include/seq.h	/^struct seq_set_c_iterator_compare {$/;"	s
+seq_set_iterator	include/seq.h	/^typedef	seq_set::iterator		seq_set_iterator;$/;"	t
+seqformat	include/seqformat.h	/^	seqformat() {}$/;"	f	class:seqformat
+seqformat	include/seqformat.h	/^class seqformat {$/;"	c
+seqformat_inputiterator	include/seqformat.h	/^	seqformat_inputiterator(istream &_is): is(_is)$/;"	f	class:seqformat_inputiterator
+seqformat_inputiterator	include/seqformat.h	/^class seqformat_inputiterator: public seqformat {$/;"	c
+sequence	include/seq.h	/^	seq_set_c_iterator	sequence;$/;"	m	struct:subseq_l
+set_coverage	include/supmax.h	/^	void set_coverage(size_t _coverage) {$/;"	f	class:Supmax
+set_debug	src/debug.cc	/^void set_debug(int debug) {$/;"	f
+setsize	include/dotty.h	/^	void setsize(double w, double h) {$/;"	f	class:Dotty
+shape	include/dotty.h	/^	void shape(const L &s) { _os << " shape = \\"" << s << "\\" "; }$/;"	f	class:Dotty
+show	include/supmax.h	/^	ostream &show(ostream &os, int flags = 0)$/;"	f	class:Supmax
+show	include/supmax.h	/^	show_t show(int flags = 0)$/;"	f	class:Supmax
+show_t	include/supmax.h	/^	typedef ntree_show< n, Node_data, statics, _stat, format_t >	show_t;$/;"	t	class:Supmax
+size	include/alphabet.h	/^	symbol_id size() const { return n; };$/;"	f	class:alphabet
+size	include/nodedata.h	/^	size_t size(symbol_id i = 0) const {$/;"	f	struct:nodedata
+size_type	include/clo.h	/^	typedef int size_type;$/;"	t	struct:clo::option_locations
+soon	include/ntree.h	/^	__NTree_node_basic *soon[n];$/;"	m	struct:__NTree_node_basic
+source_cf	include/clo.h	/^	enum opsource { source_cl, source_cf };$/;"	e	enum:clo::parser::opsource
+source_cl	include/clo.h	/^	enum opsource { source_cl, source_cf };$/;"	e	enum:clo::parser::opsource
+spc_attrib	include/dotty.h	/^	void spc_attrib() { _os << ", "; } $/;"	f	class:Dotty
+ss	include/seq.h	/^	const subseq 		&ss;$/;"	m	struct:subseq_format
+ss	include/seq.h	/^	const subseq_set	&ss;$/;"	m	struct:subseq_set_format
+st	src/main.cc	/^statics st;$/;"	v
+start	src/main.cc	/^struct timeval start, end;$/;"	v	typeref:struct:timeval
+stat	src/main.cc	/^ostream *stat = &cout;$/;"	v
+state_	include/clo.h	/^	enum parser_state { state_option, state_value, state_consume } state_;$/;"	m	class:clo::parser	typeref:enum:clo::parser::parser_state
+state_consume	include/clo.h	/^	enum parser_state { state_option, state_value, state_consume } state_;$/;"	e	enum:clo::parser::parser_state
+state_option	include/clo.h	/^	enum parser_state { state_option, state_value, state_consume } state_;$/;"	e	enum:clo::parser::parser_state
+state_value	include/clo.h	/^	enum parser_state { state_option, state_value, state_consume } state_;$/;"	e	enum:clo::parser::parser_state
+statics	include/clo.h	/^size_type statics;$/;"	m	struct:clo::option_locations
+statics	include/clo.h	/^std::string statics;$/;"	m	struct:clo::options
+statics	include/statics.h	/^	statics(): maximal(0), supermaximal(0), nodes(0) {};$/;"	f	class:statics
+statics	include/statics.h	/^class statics {$/;"	c
+status	include/ntree.h	/^	stack< struct __NTree_status< n, T > > status;$/;"	m	struct:__NTree_iterator_basic
+str	include/nodedata.h	/^	seq str() const {$/;"	f	struct:nodedata
+str	include/seq.h	/^	seq str() const { return seq(begin(), end()); }$/;"	f	struct:subseq_l
+str	include/seq.h	/^	seq str() const { return seq(begin(), end()); }$/;"	f	struct:subseq_s
+str_	include/seq.h	/^	seq str_() const { return seq(begin(), end() - 1); }$/;"	f	struct:subseq_l
+str_	include/seq.h	/^	seq str_() const { return seq(begin(), end() - 1); }$/;"	f	struct:subseq_s
+strerror	include/fasta.h	/^	char strerror[100];$/;"	m	class:fasta
+subseq	include/seq.h	/^typedef subseq_s	subseq;$/;"	t
+subseq_format	include/seq.h	/^	subseq_format(const seq_name_map &_M, const subseq &_ss): M(_M), ss(_ss) { };$/;"	f	struct:subseq_format
+subseq_format	include/seq.h	/^struct subseq_format {$/;"	s
+subseq_l	include/seq.h	/^	subseq_l(const seq_set::const_iterator &_sequence,$/;"	f	struct:subseq_l
+subseq_l	include/seq.h	/^struct subseq_l {$/;"	s
+subseq_map	include/seq.h	/^typedef std::map<string,subseq_set, malloc_alloc>	subseq_map;$/;"	t
+subseq_map_c_iterator	include/seq.h	/^typedef subseq_map::const_iterator	subseq_map_c_iterator;$/;"	t
+subseq_map_iterator	include/seq.h	/^typedef subseq_map::iterator		subseq_map_iterator;$/;"	t
+subseq_s	include/seq.h	/^	subseq_s(const seq_set::const_iterator &_sequence,$/;"	f	struct:subseq_s
+subseq_s	include/seq.h	/^struct subseq_s {$/;"	s
+subseq_set	include/seq.h	/^typedef std::slist<subseq, malloc_alloc>		subseq_set;$/;"	t
+subseq_set_c_iterator	include/seq.h	/^typedef subseq_set::const_iterator	subseq_set_c_iterator;$/;"	t
+subseq_set_format	include/seq.h	/^	subseq_set_format(const seq_name_map &_M, const subseq_set &_ss): M(_M), ss(_ss) { };$/;"	f	struct:subseq_set_format
+subseq_set_format	include/seq.h	/^struct subseq_set_format {$/;"	s
+subseq_set_iterator	include/seq.h	/^typedef subseq_set::iterator		subseq_set_iterator;$/;"	t
+subseq_set_show	include/seq_show.h	/^	subseq_set_show(const subseq_set &ss, const C &c,$/;"	f	class:subseq_set_show
+subseq_set_show	include/seq_show.h	/^class subseq_set_show {$/;"	c
+subseq_show	include/seq_show.h	/^	subseq_show (const subseq &ss, const C &c, const char *sep = "<,>"):$/;"	f	class:subseq_show
+subseq_show	include/seq_show.h	/^class subseq_show {$/;"	c
+supermaximal	include/statics.h	/^	size_t supermaximal;$/;"	m	class:statics
+supermaximals	include/clo.h	/^size_type supermaximals;$/;"	m	struct:clo::option_locations
+supermaximals	include/clo.h	/^std::string supermaximals;$/;"	m	struct:clo::options
+supmax	include/supmax.h	/^	void supmax(ostream &os) {$/;"	f	class:Supmax
+supmax	include/supmax.h	/^	void supmax(subseq_map &map) {$/;"	f	class:Supmax
+supmax	include/supmax.h	/^	void supmax(subseq_set &lst) {$/;"	f	class:Supmax
+supmax	src/main.cc	/^ostream *supmax = &cout;$/;"	v
+supmax_format	include/supmax_show.cc	/^supmax_format<T,M,A>::supmax_format(const Map &map,$/;"	f	class:supmax_format
+supmax_format	include/supmax_show.cc	/^supmax_format<T,M,A>::supmax_format(const supmax_format &f )$/;"	f	class:supmax_format
+supmax_format	include/supmax_show.h	/^class supmax_format {$/;"	c
+supmaxs	include/supmax.h	/^	SupmaxSet	supmaxs;$/;"	m	class:Supmax
+symbol	include/alphabet.h	/^typedef char	symbol;$/;"	t
+symbol	include/types.h	/^typedef char	symbol;$/;"	t
+symbol_id	include/alphabet.h	/^typedef size_t	symbol_id;$/;"	t
+symbol_id	include/types.h	/^typedef size_t	symbol_id;$/;"	t
+symbol_list	include/alphabet.h	/^typedef symbol*	symbol_list;$/;"	t
+symbol_list	include/types.h	/^typedef char*	symbol_list;$/;"	t
+tree	include/clo.h	/^size_type tree;$/;"	m	struct:clo::option_locations
+tree	include/clo.h	/^std::string tree;$/;"	m	struct:clo::options
+treeflag	include/clo.h	/^int treeflag;$/;"	m	struct:clo::options
+treeflag	include/clo.h	/^size_type treeflag;$/;"	m	struct:clo::option_locations
+treeprofile	include/clo.h	/^size_type treeprofile;$/;"	m	struct:clo::option_locations
+treeprofile	include/clo.h	/^std::string treeprofile;$/;"	m	struct:clo::options
+treeprofileflag	include/clo.h	/^int treeprofileflag;$/;"	m	struct:clo::options
+treeprofileflag	include/clo.h	/^size_type treeprofileflag;$/;"	m	struct:clo::option_locations
+what	src/alphabet.cc	/^invalid_symbol::what() const throw() {$/;"	f	class:invalid_symbol
+what	src/alphabet.cc	/^invalid_symbol_id::what() const throw() {$/;"	f	class:invalid_symbol_id
+~Dotty	include/dotty.h	/^	~Dotty() {$/;"	f	class:Dotty
+~Dotty	include/dotty2.h	/^	~Dotty() {$/;"	f	class:Dotty
+~NSubTree_basic	include/ntree.h	/^	virtual ~NSubTree_basic() {};$/;"	f	class:NSubTree_basic
+~NTree_basic	include/ntree.h	/^	virtual ~NTree_basic() {$/;"	f	class:NTree_basic
+~__NTree_node_basic	include/ntree.h	/^	~__NTree_node_basic()$/;"	f	struct:__NTree_node_basic
+~basic_format	include/ntree_show.h	/^	~basic_format() { };$/;"	f	class:basic_format
+~fasta	include/fasta.h	/^	~fasta()$/;"	f	class:fasta
+~nodedata	include/nodedata.h	/^	~nodedata() {$/;"	f	struct:nodedata
+~ntree_show	include/ntree_show.h	/^	~ntree_show( ) { };$/;"	f	class:ntree_show
+~raw	include/raw.h	/^	~raw()$/;"	f	class:raw
+~seqformat	include/seqformat.h	/^	~seqformat() {}$/;"	f	class:seqformat
+~seqformat_inputiterator	include/seqformat.h	/^	virtual ~seqformat_inputiterator()$/;"	f	class:seqformat_inputiterator
+~supmax_format	include/supmax_show.cc	/^supmax_format<T,M,A>::~supmax_format()$/;"	f	class:supmax_format

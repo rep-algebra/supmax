@@ -1,0 +1,116 @@
+<!--
+	Options for submax program.
+-->
+<cloxx>
+	<config>
+		<autohelp/>
+	</config>
+
+	<options>
+		<option id="input" type="string">
+			<name>input</name>
+			<name>i</name>
+			<comment>
+			Input file with the sequences (default: standard input)
+			</comment>
+		</option>
+
+		<option id="format" type="string" default="raw">
+			<name>format</name>
+			<name>t</name>
+			<comment>
+			Input file type (default: raw)
+			</comment>
+		</option>
+
+		<option id="statics" type="string">
+			<name>stats</name>
+			<name>S</name>
+			<comment>
+			Statics output file
+			</comment>
+		</option>
+
+		<option id="supermaximals" type="string">
+			<name>supmax</name>
+			<name>M</name>
+			<comment>
+			Supermaximals output file
+			</comment>
+		</option>
+
+		<option id="tree" type="string">
+			<name>tree</name>
+			<name>T</name>
+			<comment>
+			Tree output file
+			</comment>
+		</option>
+
+		<option id="treeprofile" type="string">
+			<name>treeprofile</name>
+			<name>pT</name>
+			<comment>
+			Tree profile prefix output file
+			</comment>
+		</option>
+
+		<option id="treeflag" type="int" default= "0">
+			<name>treeflag</name>
+			<name>g</name>
+			<comment>
+			Tree output file format convination:
+			1- Edge label.
+			2- Number of substrings.
+			4- Group substrings. 
+			8- Show symbol.
+			16- List substrings.
+			</comment>
+		</option>
+
+		<option id="treeprofileflag" type="int" default= "0">
+			<name>treeprofileflag</name>
+			<name>pg</name>
+			<comment>
+			Tree profile output file format convination:
+			1- Edge label.
+			2- Number of substrings.
+			4- Group substrings. 
+			8- Show symbol.
+			16- List substrings.
+			</comment>
+		</option>
+
+		<option id="graph" type="string">
+			<name>graph</name>
+			<name>G</name>
+			<comment>
+			Supermaximal relation graph output file
+			</comment>
+		</option>
+
+		<option id="debug" type="int" default="0">
+			<name>debug</name>
+			<name>d</name>
+			<comment>
+			Debug level
+			</comment>
+		</option>
+
+		<option id="coverage" type="int" default="1">
+			<name>coverage</name>
+			<name>c</name>
+			<comment>
+			Coverage level
+			</comment>
+		</option>
+
+		<option id="fullstat" type="bool" default="false">
+			<name>fullstat</name>
+			<name>f</name>
+			<comment>
+			Print full statics information
+			</comment>
+		</option>
+	</options>
+</cloxx>

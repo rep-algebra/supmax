@@ -1,0 +1,28 @@
+#
+# Representa los datos estadisticos en un grafico.
+#
+set terminal latex
+#set size 5/5.,4/3.
+#set format xy "$%g$"
+
+set output MSMFILE
+set title "Relación entre cantidad de maximales y supermaximales."
+set xlabel "No. Secuencia"
+set ylabel ""
+plot STATFILE using 1:6 '%s\t%i' title "Maximales" with line, \
+     STATFILE using 1:7 title "Supermaximales" with line
+
+set output RELATFILE
+set title "Relación entre tamaño de la entrada y uso de los recursos."
+set xlabel "No. Secuencia"
+set ylabel ""
+plot STATFILE using 1:2 title "Largo secuencia" with line, \
+     STATFILE using 1:3 title "Uso de CPU" with line, \
+     STATFILE using 1:4 title "Uso de memoria" with line
+
+set output NODEFILE
+set title "Relación entre tamaño de la entrada y la cantidad de nodos del árbol."
+set xlabel "No. Secuencia"
+set ylabel ""
+plot STATFILE using 1:2 title "Largo secuencia" with line, \
+     STATFILE using 1:5 title "Cantidad de nodos" with line
