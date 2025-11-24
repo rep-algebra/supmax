@@ -3,12 +3,12 @@
 Supmax
 ------
 
-+ Descripci�n:
++ Descripción:
 
 Programa para obtener todos las repeticiones supermaximales de un
-conjunto de secuencias dependientes. La documentaci�n de como
+conjunto de secuencias dependientes. La documentación de como
 funciona el mismo esta en la tesis de Cristian S. Rocha presentado
-ante el Departamento Computaci�n, Facultad de Ciencias Exactas y
+ante el Departamento Computación, Facultad de Ciencias Exactas y
 Naturales, Universidad de Buenos Aires.
 
 + Herramientas:
@@ -47,9 +47,9 @@ Optativas:
 Nota: El CLO++ simplifica el uso del programa. Su falta hace muy tedioso
       el uso del programa. Se lo dejo como optativo para poder compilar
       el codigo en IRIX, ya que no existia la version 3 del GCC cuando
-      se realiz� este codigo.
+      se realizó este codigo.
 
-+ Compilaci�n:
++ Compilación:
 
 Resumen:
 	$ bash
@@ -66,4 +66,14 @@ Agradecimientos:
 
 	Gracias a Peter Jones por su ayuda para usar el CLO++.
 	Thanks to Peter Jones for the help to use the CLO++.
+
+---
+
+© 2002–2025 Cristian S. Rocha. Todos los derechos reservados.
+
+Este repositorio contiene código y documentación desarrollados como parte de la tesis 
+de licenciatura presentada en el Departamento de Computación, Facultad de Ciencias 
+Exactas y Naturales, Universidad de Buenos Aires. El contenido se publica con fines 
+académicos y de preservación histórica. No se autoriza su uso comercial ni la 
+redistribución de versiones modificadas sin consentimiento del autor.
 
